@@ -1,0 +1,97 @@
+/* web-font */
+@font-face {
+    font-family: KoreanB;
+    src: url(../webfont/KoreanYNMYT-B.woff);
+}
+@font-face {
+    font-family: KoreanL;
+    src: url(../webfont/KoreanYNMYT-L.woff);
+}
+@font-face {
+    font-family: KoreanM;
+    src: url(../webfont/KoreanYNMYT-M.woff);
+}
+
+* {
+margin: 0; 
+padding: 0; 
+text-decoration: none; 
+font-size: 1em; 
+outline: none;
+box-sizing: border-box;
+}
+
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext {
+font: inherit; 
+font-size: 1em; 
+white-space: normal;
+}
+
+dfn, i, cite, var, address, em {
+font-style: normal;
+}
+
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+border: none;
+}
+
+table {
+border-collapse: collapse; 
+border-spacing: 0;
+}
+
+caption, th, td, center {
+text-align: left; 
+vertical-align: top;
+}
+
+body {
+line-height: 1; 
+/*background: white; */
+/*color: black;*/
+}
+
+q {
+quotes: "" "";
+}
+
+ul, ol, dir, menu {
+list-style: none;
+}
+
+sub, sup {
+vertical-align: baseline;
+}
+
+a {
+color: inherit;
+}
+
+img{display: block;}
+
+hr {
+display: none;
+} /* we don't need a visual hr in layout */
+
+font {
+color: inherit !important; 
+font: inherit !important; 
+color: inherit !important;
+} /* disables some nasty font attributes in standard browsers */
+
+marquee {
+overflow: inherit !important; 
+-moz-binding: none;
+}
+
+blink {
+text-decoration: none;
+}
+
+nobr {
+white-space: normal;
+}
